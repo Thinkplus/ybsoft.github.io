@@ -1,1 +1,1 @@
-# thinkplus.github.io-
+# thinkplus.github.io
