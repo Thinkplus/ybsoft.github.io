@@ -1,18 +1,43 @@
 <html>
     <head>
 <title>Momentum</title>
-<link rel="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
     </head>
 <body>
-    <h1 id="greetings">Hello</h1>
+
+    <form id="loginForm" class="hidden">
+        <input id="name" type=text maxlength="30" required placeholder="What is your name?">
+        <button>Login</button>
+    </form>
+    <h1 id="greeting" class="hidden">Hello</h1>
 
     <h1 id="clock"></h1>
+
+    <form id="todoForm">
+        <input id="todoInput" type="text" required placeholder="Write a To Do and Press Enter">
+    </form>
+    <ul id="todoList"></ul>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
     <script src="js/background.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/geolocation.js"></script>
     <script src="js/greetings.js"></script>
     <script src="js/login.js"></script>
-    <script src="js/todolist.js"></script>
+    <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
 </body>
 </html>
+
+
+<!--
+실시간 시계
+로컬 스토리지를 사용한 로그인
+로컬 스토리지를 사용한 투두리스트
+랜덤 배경 이미지
+날씨와 위치 (geolocation)
+여러분의 CSS 실력을 뽐내주세요💖
+-->
