@@ -1,4 +1,57 @@
+body{
+    color:white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 .hidden {
     display: none;
+}
+
+#greeting {
+    position: fixed; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock {
+    position: fixed; 
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+#todoForm {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#todoList {
+    position: fixed; 
+    width: 40%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+
+#todoList li {
+    list-style-type: none;
+    height: 24px;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;;
+}
+
+#todolist button {
+    height: 24px;
+    float: right;    
 }

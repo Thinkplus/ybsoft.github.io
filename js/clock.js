@@ -10,7 +10,7 @@ function Clock()
     const minute = String(now.getMinutes()).padStart(2,"0");;
     const second = String(now.getSeconds()).padStart(2,"0");;
 
-    clock.innerText = `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+    clock.innerHTML = `${year}-${month}-${day} </br>${hour}:${minute}:${second}`;
 
 }
 
